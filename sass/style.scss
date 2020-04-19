@@ -408,7 +408,6 @@ h1, h2, h3, h4, h5, h6, figure {
 		font-weight: 900;
 		font-size: 28px;
 		margin-bottom: 0;
-		text-transform: uppercase;
 		font-family: $font-primary;
 		i{
 			color: $brand-primary;
@@ -1129,7 +1128,6 @@ h1, h2, h3, h4, h5, h6, figure {
 	  height: 2px;
 	  color: $brand-white;
 	  font:bold 14px/.4 Helvetica;
-	  text-transform: uppercase;
 	  text-indent:-55px;
 	  background: $brand-black;
 	  transition: all .2s ease-out;
