@@ -65,7 +65,21 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
+	<style>
+		.youtube {
+			position: relative;
+			padding-bottom: 75%;
+			overflow: hidden;
+		}
 
+		.youtube iframe {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100% !important;
+			height: 100% !important;
+		}
+	</style>
 </head>
 
 <body>
@@ -227,6 +241,19 @@
 						</div>
 					</div>
 
+				</div>
+
+
+				<div class="row">
+
+					<div class="col-md-8 col-md-offset-2 text-center">
+						<div class="youtube">
+							<iframe width="789" height="371" src="https://www.youtube.com/embed/XEBNH2gaj1s"
+								frameborder="0"
+								allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+								allowfullscreen></iframe>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
